@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /*margin: 0;
+  padding: 0; This doesn't make any gaps go away.*/
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+header nav {
+  text-align: right;
+  min-width: 500px;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+header nav ul li a {
+  color: seashell;
+}
+/*
+div {
+  margin: 0px;
+  padding: 0px;
+}
+This doesn't seem to do anything either.*/
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+figure {
+  display: inline-block;
+  padding: 0px;
+  margin: 15px;
+}
+figure img {
+  width: 300px;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+figcaption {
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  margin-top: 10px;
+}
+/* Are there default padding and margin values for the above html elements?*/
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 62px;
+  /*Why is there a gap between the header and the main div when the top value is 69px?*/
+  flex-direction: column;
+  z-index: 0px;
+  /*margin: 0;
+  padding: 0; This doesn't make the gap go away.*/
+}
+.banner {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  background-color: black;
+  width: 1200px;
+}
+.gallery {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact {
+  height: 200px;
+}
+.boxes {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 20%;
+}
+.box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer {
+  width: 100%;
+  margin: 0px;
+}
+.footer h5 {
+  text-align: left;
+  margin-left: 20px;
+}
+#mission {
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  margin: 0px;
+  padding: 0px;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+#featured {
+  margin-top: 60px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+#locations {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  margin-top: 120px;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+#locations h2 {
+  /*margin-bottom: 15;* Originall did it this way without the extra positioning code.*/
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  bottom: 415px;
+}
+#locations h3 {
+  margin: 0px 0px 50px 0px;
+}
+#locations p {
+  margin: 4px 0px;
+}
+/*Thank you for taking the time to read my comments. I hope you are able to answer them. I appreciate your feedback.*/
